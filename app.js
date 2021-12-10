@@ -36,7 +36,7 @@ const win = "Congratulations, you win!"
 const lose = "Too bad, you lose."
 const tie = "It's a tie"
 
-function reportsWinner() {
+function reportWinner() {
     if (userScore === computerScore) {
         return tie
     } else if (userScore > computerScore) {
@@ -54,7 +54,7 @@ function game() {
         console.log("Your score: " + userScore)
         console.log("Computer's score: " + computerScore)
     }
-    console.log(returnWinner())
+    console.log(reportWinner())
 }
 
 game()
